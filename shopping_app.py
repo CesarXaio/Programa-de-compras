@@ -1,7 +1,7 @@
 from customer import Customer
 from item import Item
 from seller import Seller
-
+from ownable import Ownable  # Importa el módulo Ownable
 # Crear un vendedor
 vendedor = Seller("TiendaDIC")
 for i in range(10):

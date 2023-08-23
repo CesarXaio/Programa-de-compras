@@ -1,6 +1,6 @@
 from user import User
 from cart import Cart
-
+from ownable import Ownable  # Importa el módulo Ownable
 class Customer(User):
 
     def __init__(self, name):

@@ -1,5 +1,5 @@
 from wallet import Wallet
-
+from ownable import Ownable  # Importa el módulo Ownable
 class User:
     from item_manager import show_items, items_list, pick_items, show_items
 

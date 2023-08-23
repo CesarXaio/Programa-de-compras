@@ -3,7 +3,7 @@
 from item import Item
 from tabulate import tabulate
 from itertools import groupby
-
+from ownable import Ownable  # Importa el módulo Ownable
 def items_list(self):   # Devuelve todas las instancias de 'Item' que son propiedad del cliente (el cliente es el propietario).
     items = [item for item in Item.item_all() if item.owner == self]
     return items
